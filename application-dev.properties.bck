@@ -1,0 +1,4 @@
+message-from-application-properties=Hello from dev application.properties config outside
+message-from-application-testing=  ....... ##########
+DB_NAME=prestamos
+spring.datasource.url=jdbc:postgres://${DB_HOST:localhost}/${DB_NAME:test}
